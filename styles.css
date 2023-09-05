@@ -104,10 +104,20 @@ body {
 }
 
 .message__note {
-    font-size: 28px;
-    font-family: Lora, serif;
-    text-transform: none;
+    font-size: 32px;
     letter-spacing: normal;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-indent: 1px;
+    text-align: center;
+    color: rgb(27, 27, 27);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-weight: 400;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
 }
 
 .footer {
