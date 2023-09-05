@@ -1,0 +1,121 @@
+body {
+	font-family: "Lora", serif;
+	padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    min-height: 100vh;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+	width: fit-content;
+	padding-bottom: 8px;
+	border-bottom: 1.5px solid rgb(5, 68, 164);
+	text-align: center;
+	text-indent: 6px;
+	margin-top: 0;
+	font-weight: 700;
+	line-height: 1.2;
+	text-transform: uppercase;
+	letter-spacing: 0.214em;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Lora, serif;
+	box-sizing: inherit;
+    font-size: 32px;
+}
+
+.header-title__link {
+	text-decoration: none;
+	color: rgb(27, 27, 27);
+}
+
+.content {
+	max-width: 1440px;
+	position: relative;
+	overflow: hidden;
+	min-height: 315px;
+    width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    color: rgb(5, 68, 164);
+    font-size: 16px;
+    gap: 10px;
+}
+
+.content__background {
+	width: 2000px;
+	top: -300px;
+	bottom: 0;
+	right: -500px;
+	height: 500%;
+	line-height: 0.9em;
+	font-size: 140pt;
+	transform: rotate(-15deg);
+	opacity: 0.1;
+	position: absolute;
+    background-color: rgb(139, 185, 253);
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	color: rgb(5, 68, 164);
+	font-family: "Yellowtail", serif, system-ui;
+	box-sizing: inherit;
+
+}
+
+.content__email {
+    color: black;
+    font-size: 14px;
+}
+
+.message {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.message__title {
+	text-indent: 1px;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	font-weight: 700;
+	line-height: 1.2;
+	text-transform: uppercase;
+	letter-spacing: 0.214em;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	color: rgb(5, 68, 164);
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+    font-size: 16px;
+    text-align: center;
+}
+
+.message__note {
+    font-size: 28px;
+    font-family: Lora, serif;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.footer {
+    color: rgb(89, 89, 89);
+    font-size: 14px;
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    width: 100%;
+}
