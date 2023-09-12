@@ -69,12 +69,12 @@ body {
 	color: rgb(5, 68, 164);
 	font-family: "Yellowtail", serif, system-ui;
 	box-sizing: inherit;
-
 }
 
 .content__email {
     color: black;
     font-size: 14px;
+	z-index: 1;
 }
 
 .message {
