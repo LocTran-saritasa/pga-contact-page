@@ -53,6 +53,7 @@ body {
 }
 
 .content__background {
+	z-index: -1;
 	width: 2000px;
 	top: -300px;
 	bottom: 0;
@@ -74,7 +75,6 @@ body {
 .content__email {
     color: black;
     font-size: 14px;
-	z-index: 1;
 }
 
 .message {
